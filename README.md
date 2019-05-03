@@ -5,7 +5,7 @@ DB: MySQL
 
 cd backend
 npm install
-node start
+npm start
 
 cd frontend
 npm install
