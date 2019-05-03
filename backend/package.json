@@ -1,5 +1,5 @@
 {
-  "name": "express-jwt-sequelize-mysql",
+  "name": "employee_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
