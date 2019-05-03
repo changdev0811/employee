@@ -15,7 +15,8 @@ class Employee extends Component {
             bystatus: ''
         };
         this.updateStatus = this.updateStatus.bind(this);
-        // this.onChange = this.onChange.bind(this);
+        this.onNameChange = this.onNameChange.bind(this);
+        this.onStatusChange = this.onStatusChange.bind(this);
         this.handleFilter = this.handleFilter.bind(this);
     }
 
