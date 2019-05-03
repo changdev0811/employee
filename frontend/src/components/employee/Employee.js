@@ -28,32 +28,17 @@ class Employee extends Component {
     }
 
     updateStatus = event => {
-        // this.setState({status: event.target.value});
-        // this.props.status(event.target.value);
-        const { user } = this.props.auth;
         const email = user.email;
         const status = event.target.value;
         this.props.updateStatus(email, status);
     };
 
     onNameChange = event => {
-        // const state = this.state;
-
-        // state[event.target.name] = event.target.value;
-        // this.setState(state);
-        // console.log(event);
         this.setState({byname: event.target.value});
-        // this.setState({byname: event.target.value});
     }
 
     onStatusChange = event => {
-        // const state = this.state;
-
-        // state[event.target.name] = event.target.value;
-        // this.setState(state);
-        // console.log(event);
         this.setState({bystatus: event.target.value});
-        // this.setState({byname: event.target.value});
     }
 
     handleFilter(event){
