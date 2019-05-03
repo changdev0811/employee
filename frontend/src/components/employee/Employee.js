@@ -28,6 +28,7 @@ class Employee extends Component {
     }
 
     updateStatus = event => {
+        const { user } = this.props.auth;
         const email = user.email;
         const status = event.target.value;
         this.props.updateStatus(email, status);
